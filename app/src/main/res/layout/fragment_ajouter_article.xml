@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".activities.ajouter_article"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="horizontal"
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/frag_ajouterArticle_goBack"
+                android:src="@drawable/ic_arrow_back_black_24dp"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ajouter Un Article"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="@color/blackcolor"
+                android:textSize="25dp"
+                android:textStyle="bold"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp">
+                <ImageView
+                    android:id="@+id/frag_ajouterArticle_imgArticle"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/ic_camera_alt_black_24dp"
+                    />
+            </LinearLayout>
+            <EditText
+                android:layout_width="280dp"
+                android:layout_height="45dp"
+                android:hint=" Designation "
+                android:layout_marginTop="35dp"
+                android:id="@+id/frag_ajouterArticle_designation"
+                android:paddingLeft="15dp"
+                android:inputType="text"
+                android:textColorHint="@color/fullwhite"
+                android:elevation="5dp"
+                android:background="@drawable/btn"
+                />
+            <EditText
+                android:layout_width="280dp"
+                android:layout_height="45dp"
+                android:hint=" Description "
+                android:layout_marginTop="10dp"
+                android:inputType="text"
+                android:paddingLeft="15dp"
+                android:id="@+id/frag_ajouterArticle_description"
+                android:textColorHint="@color/fullwhite"
+                android:elevation="5dp"
+                android:background="@drawable/btn"
+                />
+            <androidx.appcompat.widget.AppCompatSpinner
+                android:id="@+id/frag_ajouterArticle_catSpinner"
+                android:layout_width="280dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="10dp"
+                />
+            <RatingBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5"
+                android:rating="1.0"
+                android:stepSize="1.0"
+                android:layout_marginTop="10dp"
+                android:id="@+id/frag_ajouterArticle_rating"/>
+
+
+            <Button
+                android:layout_width="280dp"
+                android:layout_height="45dp"
+                android:id="@+id/frag_ajouterArticle_ajouterArticleBtn"
+                android:text="Ajouter"
+                android:textColor="@color/whitecolor"
+                android:textAllCaps="false"
+                android:layout_marginTop="25dp"
+                android:elevation="5dp"
+                android:background="@drawable/addbtn"/>
+
+
+
+        </LinearLayout>
+
+    </FrameLayout>

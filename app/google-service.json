@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "330864894714",
+    "firebase_url": "https://jeteste-db927.firebaseio.com",
+    "project_id": "jeteste-db927",
+    "storage_bucket": "jeteste-db927.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:330864894714:android:720a1650f9e56cb7149f43",
+        "android_client_info": {
+          "package_name": "com.example.jeteste"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "330864894714-ge98r6clbq4ojr5vm8gciuem6577sb24.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.jeteste",
+            "certificate_hash": "83c6d97e159a7a6bb803c0487ff069ca9f34d194"
+          }
+        },
+        {
+          "client_id": "330864894714-hpogidlc9osbsim4qp7vf008t0uc6sha.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdfgwYT_1JNZ-q_n-gpRCsUiEPrO69PuU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "330864894714-hpogidlc9osbsim4qp7vf008t0uc6sha.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

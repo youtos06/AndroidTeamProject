@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#4267B2"
+    android:foregroundGravity="center"
+    app:layout_anchorGravity="center_horizontal"
+    tools:context=".SplashActivity">
+
+
+        <ImageView
+            android:id="@+id/splashscreen"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+
+            android:layout_margin="50dp"
+            android:src="@mipmap/logo_total_photo"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="20dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+
+            android:text="this is a simple Add"
+            android:src="@mipmap/ic_applogo"
+            android:textSize="24sp"
+            app:layout_constraintTop_toBottomOf="@id/splashscreen"
+            tools:layout_editor_absoluteX="20dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
